@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Ajax based creative portfolio">
+	<meta name="author" content="layerz">
+
+	<title>Androw Barnett</title>
+
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<div id="fade"></div>
+
+	<div id="loader">
+		<div class="loading"></div>
+	</div>
+
+	<div id="wrapper">
+		<div id="pages">
+
+			<!-- home -->
+			<div class="showcase">
+				<div class="sidebar controls">
+					<div class="main-title">androw barnett</div>
+
+					<div class="controls-projects-list">
+						<ul class="projects-list">
+							<li><a data-url="html/profile.html" data-ref="preview_01">Profile</a></li>
+							<li><a data-url="html/snapchat.html" data-ref="preview_02">Snapchat</a></li>
+							<li><a data-url="html/instagram.html" data-ref="preview_03">Instagram</a></li>
+							<li><a data-url="html/facebook.html" data-ref="preview_04">Facebook</a></li>
+							<li><a data-url="html/merch.html" data-ref="preview_05">Merchandise</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar previews">
+					<div class="close-project">
+						<span></span>
+					</div>
+
+					<div class="preview preview_01" data-bg="img/POOH.png"></div>
+					<div class="preview preview_02" data-bg="img/BENBOT.png"></div>
+					<div class="preview preview_03" data-bg="img/BLUEBERRY.png"></div>
+					<div class="preview preview_04" data-bg="img/POTATO.png"></div>
+					<div class="preview preview_05" data-bg="img/MONKEY.png"></div>
+				</div>
+			</div>
+
+			<!-- about -->
+			<div id="about">
+				<div id="about-content"></div>
+			</div>
+
+			<!-- project -->
+			<div id="project">
+				<div id="project-content"></div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
